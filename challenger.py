@@ -1,0 +1,12 @@
+print("Toay's date?")
+date = input ()
+print("Breakfast calories?")
+bk_calories = int(input())
+print("Lunch calories?")
+lc_calories = int(input())
+print("Dinner calories?")
+ln_calories = int(input())
+print("Snack calories?")
+sk_calories = int(input())
+sum = bk_calories + lc_calories + ln_calories + sk_calories
+print("Calorie content for ", date + ":" + str(sum))
